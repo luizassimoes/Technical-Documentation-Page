@@ -1,0 +1,139 @@
+@media (max-width: 500px) {
+  main {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    display: flex;
+}
+}
+
+@media { 
+  * {
+    scroll-behavior: smooth;
+  }
+
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 41%;
+  max-width: 240px;
+  display: flex;
+}
+
+.navbar header {
+  font-size: 30px;
+  padding: 10px;
+  padding-bottom: 13px;
+  border-bottom: dotted white 12px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.menu-item:hover {
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 25px 0 0 25px;
+  transition: background-color 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  position: absolute;
+  color: black;
+  top: 20px;
+  left: 250px;
+  display: flex;
+}
+
+section header {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+section ul {
+  margin: 20px;
+}
+
+p {
+  margin: 25px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.titles {
+  margin: 10px 20px;
+  padding-top: 30px;
+}
+
+.first {
+  padding-top: 0;
+}
+
+.separator {
+  height: 40px
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  position: relative;
+  margin: 40px 40px 0px 40px;
+}
+
+table tbody tr td:not(.syn) {
+  text-align: center;
+}
+
+thead {
+  background-color: #F0F0F0;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #FBFBFB;
+}
+
+caption {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #505050;
+}
+
+
+
